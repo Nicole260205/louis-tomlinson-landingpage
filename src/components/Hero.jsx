@@ -1,13 +1,12 @@
-import hero from '../assets/hero.png'
-import React from 'react'
-import '../styles/hero.css'
+import hero from "../assets/hero.png";
+import React from "react";
+import "../styles/hero.css";
 
 function Hero() {
   return (
     <>
       <div className="hero">
         <div className="hero-image">
-          <img src={hero} alt="Louis Tomlinson" />
           <div className="hero-text">
             <h1 className="hero-name">
               <span className="name-bold">LOUIS</span>
@@ -21,4 +20,4 @@ function Hero() {
   );
 }
 
-export default Hero
+export default Hero;
