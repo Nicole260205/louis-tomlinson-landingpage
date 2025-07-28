@@ -9,29 +9,31 @@ function About() {
         <hr />
         <div className="about-text">
           <p style={{ fontWeight: "bold" }}>
-            Louis Tomlinson was born and raised in Doncaster, England, on
-            December 24, 1991. Growing up with a love for music, he dreamed of
-            sharing his stories through songs and connecting with people
-            everywhere.
+            Louis Tomlinson nasceu e foi criado em Doncaster, Inglaterra, no dia
+            24 de dezembro de 1991. Crescendo com uma paixão pela música, ele
+            sonhava em compartilhar suas histórias por meio de canções e se
+            conectar com pessoas do mundo todo.
           </p>
           <p>
-            Louis first became known as a member of One Direction, where he won
-            over fans with his honest lyrics and catchy tunes. Since going solo,
-            he’s been creating music that’s personal and real, connecting with
-            people all around the world.
+            Louis ficou conhecido inicialmente como membro da One Direction,
+            onde conquistou os fãs com suas letras sinceras e melodias
+            cativantes. Desde que iniciou sua carreira solo, ele vem criando
+            músicas pessoais e autênticas, conectando-se com pessoas ao redor do
+            mundo.
           </p>
           <p>
-            Off stage, Louis is just as down-to-earth. He’s passionate about
-            giving back and raising awareness for mental health, always using
-            his voice to support causes that matter to him.
+            Fora dos palcos, Louis é igualmente pé no chão. Ele é apaixonado por
+            retribuir e por conscientizar sobre saúde mental, sempre usando sua
+            voz para apoiar causas que são importantes para ele.
           </p>
           <p>
-            Louis is always trying new things and growing as an artist. Whether
-            it’s new music or live shows, he’s all about sharing his journey
-            with fans and staying true to himself.
+            Louis está sempre experimentando coisas novas e crescendo como
+            artista. Seja com novas músicas ou apresentações ao vivo, ele está
+            sempre compartilhando sua jornada com os fãs e permanecendo fiel a
+            si mesmo.
           </p>
         </div>
-        <img src={about} alt="" className='about-img'/>
+        <img src={about} alt="" className="about-img" />
       </div>
     </>
   );
