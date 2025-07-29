@@ -43,7 +43,7 @@ Acesse: http://localhost:5173
 ## Estrutura
 📦 louis-tomlinson-landingpage <br>
  ┣ 📂components<br>
- ┣ 📂pages<br>
+ ┣ 📂styles<br>
  ┣ 📂assets<br>
  ┣ App.jsx<br>
  ┣ main.jsx<br>
