@@ -5,9 +5,9 @@ function About() {
   return (
     <>
       <div className="about">
-        <h1>About</h1>
-        <hr />
         <div className="about-text">
+          <h1>About</h1>
+          <hr />
           <p style={{ fontWeight: "bold" }}>
             Louis Tomlinson nasceu e foi criado em Doncaster, Inglaterra, no dia
             24 de dezembro de 1991. Crescendo com uma paixão pela música, ele
