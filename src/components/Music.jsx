@@ -2,22 +2,21 @@ import "../styles/music.css";
 import justHoldOn from "../assets/just_hold_on.jpg";
 import backToYou from "../assets/back_to_you.jpg";
 import justLikeYou from "../assets/just_like_you.jpg";
-import missYou from "../assets/miss_you.jpg";  
+import missYou from "../assets/miss_you.jpg";
 import walls from "../assets/walls.jpg";
 import faithInTheFuture from "../assets/fitf.jpg";
-
 
 function Music() {
   return (
     <>
-      <div className="music">
+      <div className="music-container">
         <h1>Music</h1>
-        <hr className="hr-music" />
+        <hr className="music-hr" />
         <h3>singles</h3>
-        <div className="cards-single">
-          <div className="card">
+        <div className="music-cards-single">
+          <div className="music-card">
             <img src={justHoldOn} alt="" />
-            <div className="card-info">
+            <div className="music-card-info">
               <h4>Just Hold On</h4>
               <p>2016</p>
               <a
@@ -30,9 +29,9 @@ function Music() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="music-card">
             <img src={backToYou} alt="" />
-            <div className="card-info">
+            <div className="music-card-info">
               <h4>Back to You</h4>
               <p>2017</p>
               <a
@@ -45,9 +44,9 @@ function Music() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="music-card">
             <img src={justLikeYou} alt="" />
-            <div className="card-info">
+            <div className="music-card-info">
               <h4>Just Like You</h4>
               <p>2017</p>
               <a
@@ -60,9 +59,9 @@ function Music() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="music-card">
             <img src={missYou} alt="" />
-            <div className="card-info">
+            <div className="music-card-info">
               <h4>Miss You</h4>
               <p>2017</p>
               <a
@@ -77,10 +76,10 @@ function Music() {
         </div>
 
         <h3>albuns</h3>
-        <div className="cards-albums">
-          <div className="card">
+        <div className="music-cards-albums">
+          <div className="music-card">
             <img src={walls} alt="" />
-            <div className="card-info">
+            <div className="music-card-info">
               <h4>Walls</h4>
               <p>2020</p>
               <a
@@ -93,9 +92,9 @@ function Music() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="music-card">
             <img src={faithInTheFuture} alt="" />
-            <div className="card-info">
+            <div className="music-card-info">
               <h4>Faith In The Future</h4>
               <p>2022</p>
               <a
