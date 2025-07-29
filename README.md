@@ -1,12 +1,54 @@
-# React + Vite
+# Louis Tomlinson 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto de uma **landing page** inspirada no cantor *Louis Tomlinson*. A proposta é criar uma experiência visual moderna e responsiva, destacando elementos gráficos e informações de conteúdo relacionados ao artista e seu trabalho.
 
-Currently, two official plugins are available:
+## Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![preview do site](./preview.png)
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Design responsivo com CSS customizado
+- Carrossel com videoclipes e álbuns
+- Layout otimizado para mobile e desktop
+- Paleta de cores personalizada baseada na estética do álbum
+
+## Tecnologias utilizadas
+
+- [React.js](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- HTML5 + CSS3 (customizados, sem frameworks)
+- JavaScript (ES6+)
+
+## Instalação
+
+1 - Clone o projeto:
+
+`git clone https://github.com/Nicole260205/louis-tomlinson-landingpage.git` <br>
+
+2 - Acesse a pasta:
+
+`cd louis-tomlinson-landingpage` <br>
+
+3 - Instale as dependências:
+
+`npm install`
+
+4 - Execute localmente:
+
+`npm run dev`
+
+Acesse: http://localhost:5173
+
+## Estrutura
+📦 louis-tomlinson-landingpage <br>
+ ┣ 📂components<br>
+ ┣ 📂pages<br>
+ ┣ 📂assets<br>
+ ┣ App.jsx<br>
+ ┣ main.jsx<br>
+ ┣ index.css<br>
+ ┗ vite.config.js<br>
+
+## Autora
+Feito por @Nicole260205
