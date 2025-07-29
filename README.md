@@ -9,9 +9,9 @@ Projeto de uma **landing page** inspirada no cantor *Louis Tomlinson*. A propost
 ## Funcionalidades
 
 - Design responsivo com CSS customizado
-- Carrossel com videoclipes e álbuns
+- Cards com os albuns e clipes musicais
 - Layout otimizado para mobile e desktop
-- Paleta de cores personalizada baseada na estética do álbum
+- Paleta de cores personalizada baseada na estética do cantor
 
 ## Tecnologias utilizadas
 
