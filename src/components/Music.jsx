@@ -5,6 +5,7 @@ import justLikeYou from "../assets/just_like_you.jpg";
 import missYou from "../assets/miss_you.jpg";
 import walls from "../assets/walls.jpg";
 import faithInTheFuture from "../assets/fitf.jpg";
+import live from "../assets/live.jpg";
 
 function Music() {
   return (
@@ -99,6 +100,20 @@ function Music() {
               <p>2022</p>
               <a
                 href="https://open.spotify.com/intl-pt/album/2RMzjdvRjr9gd2XgS5PnEn?si=dfSNinSuQde2qjn8kJkmWQ"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button>Listen</button>
+              </a>
+            </div>
+          </div>
+          <div className="music-card">
+            <img src={live} alt="" />
+            <div className="music-card-info">
+              <h4>LIVE</h4>
+              <p>2024</p>
+              <a
+                href="https://open.spotify.com/intl-pt/album/7BTeGSKbjNIDVLn4NXWlr8?si=TXa0qn81SPCri1qK-W1TGA"
                 target="_blank"
                 rel="noopener noreferrer"
               >
